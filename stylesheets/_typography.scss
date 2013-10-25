@@ -1,0 +1,42 @@
+h1, h2, h3, h4 {
+  font-family: $sans;
+}
+
+h1 {
+  @include adjust-font-size-to(36px,1);
+  // @include debug-vertical-alignment;
+  font-weight: 600;
+  color: $green;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  @include margin-leader(1, 36px);
+  @include margin-trailer(1, 36px);
+  span {
+    //font-family: $serif;
+    //font-style: italic;
+    //font-weight: 300;
+  }
+}
+
+h2 {}
+
+h3 {
+  @include adjust-font-size-to(27px);
+  //@include reset-baseline;
+  //@include debug-vertical-alignment;
+  // text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: $green;
+  font-weight: 500;
+}
+
+p {
+  @include padding-trailer(1);
+  @include reset-baseline;
+  &.lead {
+    font-style: italic;
+    //opacity: 0.8;
+    color: darken($green, 15%);
+    @include padding-trailer(2);
+  }
+}

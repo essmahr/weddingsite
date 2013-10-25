@@ -1,0 +1,9 @@
+%h1 Registry
+%ul
+  - $registries.each do |item|
+    %li
+      =# item.inspect
+      %h2= item[:description]
+      %h3 website: #{item[:url]}
+      %a{:href => '#', :class => 'remove', :data => {:remove => item[:id]}}
+        Remove

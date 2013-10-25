@@ -1,0 +1,14 @@
+%h1 Accommodation
+
+%p.lead There are a number of lovely inn and B&B options on Galiano Island, but not all are located in close proximity to the wedding venue. We strongly encourage guests to book their accommodation as far in advance as possible, and to try and stick to the south end of the island.
+
+%ul.accommodation
+  - $accommodations.each do |cabin|
+    - url = 'http://'+cabin[:url]
+    %li
+      %h3
+        %a{:href => url, :target => '_blank'}= cabin[:title]
+      %p
+        = cabin[:desc]
+        %br
+        %a{:href => url, :target => '_blank', :class => 'visit-site'} Visit Site

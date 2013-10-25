@@ -1,0 +1,15 @@
+{"type": "FeatureCollection",
+"features" : [
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.355806,48.859800]
+  },
+  "properties": {
+    "marker-color": "#b64c3b",
+    "title": "Eagle's Nest Retreat"
+  }
+}
+]
+}

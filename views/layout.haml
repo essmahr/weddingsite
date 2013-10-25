@@ -1,0 +1,40 @@
+!!! 5
+%html{html_attrs}
+  %head
+    %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
+    %meta{:name => "lang", :content => "en"}
+    %title Scott & Alanna
+    %link{:href=>'/stylesheets/application.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
+    %link{:href=>'http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
+    /[if lte IE 8]
+      %link{:href=>'http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
+    %script{:type => "text/javascript", :src => "//use.typekit.net/eub8ccn.js"}
+    :javascript
+      try{Typekit.load();}catch(e){}
+      
+    
+      
+  %body{:class => @home ? 'home' : 'page'}
+    #page
+      %header.header
+        %nav#nav
+          - unless @home
+            %h1#mark
+              %a{:href => '/'} Scott And Alanna Get Married
+          %ul
+            %li
+              %a{:href => url('/about')} About
+            %li
+              %a{:href => url('/location')} Location & Logistics
+            %li
+              %a{:href => url('/accommodation')} Accommodation
+            %li
+              %a{:href => url('/registry')} Registry
+      - if @home
+        = yield
+      - else
+        %article#content
+          = yield
+    %script{:type => "text/javascript", :src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"}
+    %script{:type => "text/javascript", :src => "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js"}
+    %script{:type => "text/javascript", :src => "/javascripts/application.js"}

@@ -1,0 +1,336 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  #page {
+    max-width: 58.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #page {
+    max-width: 18.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  #page {
+    max-width: 53.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #page {
+    max-width: 43.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  #page {
+    margin-left: 0;
+  }
+
+  .header {
+    width: 31.62393%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+
+  #content {
+    width: 65.81197%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  #page {
+    margin-left: 0;
+  }
+
+  .header {
+    width: 25.23364%;
+    float: left;
+    margin-right: 2.80374%;
+  }
+
+  #content {
+    width: 71.96262%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    width: 100%;
+    float: left;
+    margin-right: 3.8961%;
+  }
+
+  #content {
+    width: 100%;
+    float: left;
+    margin-right: 3.8961%;
+  }
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  .header, #content {
+    width: 100%;
+    float: left;
+    margin-right: 8.10811%;
+  }
+}
+* html {
+  font-size: 112.5%;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.44444em;
+}
+
+body {
+  background: url(/images/page-bg.jpg) no-repeat center bottom #fffdf6;
+  background-size: 100% auto;
+  font-family: "freight-micro-pro", Georgia, serif;
+  color: #3b3934;
+}
+body.home {
+  background: url(/images/bg.jpg) no-repeat fixed center bottom #fffdf6;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #a2b671;
+}
+a:hover {
+  color: #b64c3b;
+}
+
+#content {
+  margin-top: 5.77778em;
+  margin-bottom: 11.55556em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "museo-sans", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 0.72222em;
+  font-weight: 600;
+  color: #a2b671;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-top: 0.72222em;
+  margin-bottom: 0.72222em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.92593em;
+  letter-spacing: 0.01em;
+  color: #a2b671;
+  font-weight: 500;
+}
+
+p {
+  padding-bottom: 1.44444em;
+  line-height: 1.44444em;
+}
+p.lead {
+  font-style: italic;
+  color: #7c904a;
+  padding-bottom: 2.88889em;
+}
+
+#mark {
+  margin: 10px 0 23px;
+}
+#mark a {
+  display: block;
+  width: 42px;
+  height: 46px;
+  background: url(/images/ampersand.png) no-repeat 0 0 #ced9b4;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  text-indent: -9999px;
+}
+#mark a:hover {
+  background-color: #b64c3b;
+}
+
+#nav {
+  font-family: "museo-sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.66667em;
+  line-height: 2.16667em;
+  letter-spacing: 0.1em;
+  padding-top: 2.16667em;
+}
+
+@media screen and (max-width: 768px) {
+  header.header {
+    position: static !important;
+  }
+}
+#welcome {
+  margin: 0;
+}
+#welcome a {
+  display: block;
+  width: 319px;
+  height: 209px;
+  background: url(/images/welcome.png) no-repeat 0 0;
+  text-indent: -9999px;
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  top: 30%;
+}
+
+.accommodation li {
+  border-bottom-style: dotted;
+  border-bottom-width: 0.05556em;
+  padding-bottom: 0.66667em;
+  border-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.44444em;
+}
+.accommodation li:last-child {
+  border: 0;
+}
+.accommodation .visit-site {
+  display: inline-block;
+  font-family: "museo-sans", sans-serif;
+  font-size: 0.66667em;
+  line-height: 2.16667em;
+  line-height: 1.44444em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-style: solid;
+  border-width: 0.16667em;
+  padding: 0.375em;
+  border-color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 1.80556em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.accommodation .visit-site:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.map-container {
+  width: 100%;
+  float: left;
+  margin-right: 3.8961%;
+  display: inline;
+}
+.map-container #map {
+  height: 500px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 1.44444em;
+  margin-bottom: 4.33333em;
+  background: #daecf7;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}

@@ -1,0 +1,26 @@
+@include establish-baseline;
+
+body {
+  background: url(/images/page-bg.jpg) no-repeat center bottom $beige;
+  background-size: 100% auto;
+  // @include baseline-grid-background;
+  font-family: $serif;
+  color: #3b3934;
+  &.home {
+    background: url(/images/bg.jpg) no-repeat fixed center bottom $beige;
+    background-size: cover;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $green;
+  &:hover {
+    color: $red;
+  }
+}
+
+#content {
+  @include margin-leader(4);
+  @include margin-trailer(8);
+}

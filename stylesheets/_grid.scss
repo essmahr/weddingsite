@@ -1,0 +1,65 @@
+@import 'susy';
+
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 3.5em;            
+$gutter-width   : 1.5em;            
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
+
+$mega: 1200px 12;
+$standard: 1199px 11 768px;
+$tablet: 767px 9 320px;
+$mobile: 319px 4 0px;
+
+$layouts: $mega, $mobile, $standard, $tablet;
+@each $layout in $layouts {
+  @include at-breakpoint($layout) {
+    #page {
+      @include container;
+      // @include susy-grid-background;
+    }
+  }
+}
+
+@include at-breakpoint($mega) {
+  #page {
+    margin-left: 0;
+  }
+  .header {
+    @include span-columns(4,12);
+  }
+  
+  #content {
+    @include span-columns(8 omega,12);
+  }
+}
+
+@include at-breakpoint($standard) {
+  #page {
+    margin-left: 0;
+  }
+  .header {
+    @include span-columns(3, 11);
+  }
+  
+  #content {
+    @include span-columns(8 omega, 11);
+  }
+}
+
+@include at-breakpoint($tablet) {
+  .header {
+    @include span-columns(8,8);
+  }
+  
+  #content {
+    @include span-columns(8,8);
+  }
+}
+
+@include at-breakpoint($mobile) {
+  .header, #content {
+    @include span-columns(4,4);
+  }
+}
+

@@ -1,0 +1,14 @@
+.map-container {
+  @include span-columns(8,8);
+  //@include pull(1,8);
+  #map {
+    //border: 8px solid lighten($green, 35%);
+    height: 500px;
+    width: 100%;
+    @include box-sizing(border-box);
+    @include margin-leader(1);
+    @include margin-trailer(3);
+    background: $ocean;
+    @include border-radius(2px);
+  }
+}
