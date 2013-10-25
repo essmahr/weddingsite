@@ -8,7 +8,47 @@
   },
   "properties": {
     "marker-color": "#b64c3b",
+    "marker-size": "medium",
     "title": "Eagle's Nest Retreat"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.406884,48.899565]
+  },
+  "properties": {
+    "marker-color": "738150",
+    "marker-size": "medium",
+    "marker-symbol": "campsite",
+    "title": "Montague Harbour Provincial Park"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.345845,48.890750]
+  },
+  "properties": {
+    "marker-color": "#825935",
+    "marker-size": "medium",
+    "marker-symbol": "beer",
+    "title": "Hummingbird Pub"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.316512,48.877902]
+  },
+  "properties": {
+    "marker-color": "#667fa4",
+    "marker-size": "medium",
+    "marker-symbol": "ferry",
+    "title": "Sturdies Bay Ferry Terminal"
   }
 }
 ]

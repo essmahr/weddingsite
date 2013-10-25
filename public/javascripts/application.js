@@ -24,7 +24,8 @@ $(document).ready(function() {
 	  .attr('target', '_blank');
 
   var map = L.mapbox.map('map', 'cabinroom.map-fvzt0qox', {
-    zoomControl: false
+    zoomControl: true,
+    scrollWheelZoom: false
   });
   map.setView([48.883624, -123.364000],13);
 
