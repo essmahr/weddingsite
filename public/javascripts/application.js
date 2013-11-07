@@ -13,18 +13,20 @@ $(document).ready(function() {
   window.setTimeout(function(){
     $('body').addClass('loaded');
   }, 300);
-  $('header').stick_in_parent();
+  
+  //$('header').stick_in_parent();
   
   $('#nav a').click(function(){
     $('#content').css({opacity: 0});
   });
   
   $(window).resize(function(){
-    $(document.body).trigger("sticky_kit:recalc");
+    //$(document.body).trigger("sticky_kit:recalc");
   });
   
   $('a.fb').fancybox({
-    
+    padding: 6,
+    maxWidth: 800
   });
 
   var map = L.mapbox.map('map', 'cabinroom.map-fvzt0qox', {

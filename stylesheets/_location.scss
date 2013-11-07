@@ -47,3 +47,25 @@
     color: $green;
   }
 }
+
+
+#map {
+  font-family: $sans;
+  color: $base;
+  .leaflet-popup-content-wrapper {
+    background: lighten($beige, 5%);
+    .leaflet-popup-content {
+      margin: 8px 12px;
+      line-height: 1.4;
+      .marker-title {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 14px;
+        font-weight: normal;
+        color: darken($green, 20%);
+      }
+    }
+  }
+}
+
+

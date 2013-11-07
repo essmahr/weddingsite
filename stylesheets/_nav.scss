@@ -13,6 +13,15 @@
   }
 }
 
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+  #mark a {
+    background-image: url(/images/ampersand@2x.png);
+    background-size: 84px 92px;
+  }
+}
+
 #nav {
   font-family: $sans;
   text-transform: uppercase;
