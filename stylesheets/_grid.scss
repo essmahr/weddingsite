@@ -1,7 +1,7 @@
 @import 'susy';
 
 $total-columns  : 12;             // a 12-column grid
-$column-width   : 3.5em;            
+$column-width   : 3em;            
 $gutter-width   : 1.5em;            
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 
@@ -31,6 +31,9 @@ $layouts: $mega, $mobile, $standard, $tablet;
   
   #content {
     @include span-columns(8 omega,12);
+  }
+  .sched-col {
+    @include span-columns(4,8);
   }
 }
 

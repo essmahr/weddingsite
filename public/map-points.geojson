@@ -9,7 +9,21 @@
   "properties": {
     "marker-color": "#b64c3b",
     "marker-size": "medium",
-    "title": "Eagle's Nest Retreat"
+    "title": "Eagle's Nest Retreat",
+    "description": "Party Town, USA"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.339741,48.866654]
+  },
+  "properties": {
+    "marker-color": "#b64c3b",
+    "marker-size": "medium",
+    "title": "The Bluffs",
+    "description": "This stretch of seaside cliffs affords super views of Galiano's island brethren without the strenuous climb that is Mt. Galiano."
   }
 },
 {
@@ -22,7 +36,47 @@
     "marker-color": "738150",
     "marker-size": "medium",
     "marker-symbol": "campsite",
-    "title": "Montague Harbour Provincial Park"
+    "title": "Montague Harbour Provincial Park",
+    "description": "This campsite fills up fast but it's real beautiful. Keep an eye out for the floating bakery!"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.535285,48.954063]
+  },
+  "properties": {
+    "marker-color": "738150",
+    "marker-size": "medium",
+    "title": "Bodega Ridge",
+    "description": "Get away from the suffocating urbanity of the south end and take a trip up to Bodega Ridge for great hiking and even more great views of islands, water and sky."
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.341823,48.900434]
+  },
+  "properties": {
+    "marker-color": "738150",
+    "marker-size": "medium",
+    "title": "Morning Beach",
+    "description": "Scott and Alanna's sandy stretch of choice. Lots of shallow swimming for the wusses. Check out the cool mini-house on the little island!"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.320687,48.879342]
+  },
+  "properties": {
+    "marker-color": "738150",
+    "marker-size": "medium",
+    "title": "'Downtown' Galiano",
+    "description": "You will see these shops as you drive off the ferry - there is a decent café/bakery, ice cream, a diner, and some hippie art. The corner store to your left as you exit the terminal is the only place on the island for automobile fuel so get it while you can."
   }
 },
 {
@@ -35,7 +89,8 @@
     "marker-color": "#825935",
     "marker-size": "medium",
     "marker-symbol": "beer",
-    "title": "Hummingbird Pub"
+    "title": "Hummingbird Pub",
+    "description": "This is where Alanna worked all last summer. It caters to a good mix of upper-middle-class tourists and leathery local folk. Delicious burgers and true pints!<br><br>Also located at this junction is the Day Star market for food stuffs and the Corner Store for all your liquor needs."
   }
 },
 {
@@ -48,7 +103,8 @@
     "marker-color": "#667fa4",
     "marker-size": "medium",
     "marker-symbol": "ferry",
-    "title": "Sturdies Bay Ferry Terminal"
+    "title": "Sturdies Bay Ferry Terminal",
+    "description": "This is where you'll arrive. Chances are you've floated by before and admired its handsome berth. For more info, we strongly recommend you <a href='http://ferriesbc.proboards.com/' target='_blank'>check this site out</a>."
   }
 }
 ]

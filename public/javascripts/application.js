@@ -10,18 +10,22 @@ f.css("position")&&f.css({position:"relative"}),a.css({position:"absolute",botto
 
 $(document).ready(function() {
 
+  window.setTimeout(function(){
+    $('body').addClass('loaded');
+  }, 300);
   $('header').stick_in_parent();
+  
+  $('#nav a').click(function(){
+    $('#content').css({opacity: 0});
+  });
   
   $(window).resize(function(){
     $(document.body).trigger("sticky_kit:recalc");
   });
   
-	// Open external links in a new window
-	hostname = window.location.hostname
-	$("a[href^=http]")
-	  .not("a[href*='" + hostname + "']")
-	  .addClass('link external')
-	  .attr('target', '_blank');
+  $('a.fb').fancybox({
+    
+  });
 
   var map = L.mapbox.map('map', 'cabinroom.map-fvzt0qox', {
     zoomControl: true,

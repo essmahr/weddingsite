@@ -1,12 +1,12 @@
 $accommodations = [
   {
     :title => 'The Galiano Inn',
-    :desc => 'Treat yourselves! Located right in Sturdies Bay, the Galiano Inn offers the most luxurious stay on the island, with spectacular ocean views and wood-burning fire places in every room. Even if you decide to stay elsewhere, stop by their outdoor pizza kitchen for some of the most delicious thin crust you&rsquo;ve ever tasted. Queen rooms from $249/night.',
+    :desc => 'Located right in Sturdies Bay, the Galiano Inn offers the most luxurious stay on the island, with spectacular ocean views and wood-burning fireplaces in every room. Even if you decide to stay elsewhere, stop by their outdoor pizza kitchen for some of the most delicious thin crust you&rsquo;ve ever tasted. Queen rooms from $249/night.',
     :url => 'galianoinn.com'
   },
   {
     :title => 'Driftwood Village',
-    :desc => 'Slightly more rustic, but just as lovely, are the nine cottages that make up Driftwood Village.  All have cooking, lounging and sleeping facilities, as well as access to a hot tub in the orchard and views of Active Pass. Studios from $110/night.',
+    :desc => 'Slightly more rustic, but just as lovely, are the nine cottages that make up Driftwood Village.  All have cooking, lounging and sleeping facilities, as well as access to a hot tub in the orchard and views of Active Pass. Studios from $90/night.',
     :url => 'driftwoodvillage.com'
   },
   {

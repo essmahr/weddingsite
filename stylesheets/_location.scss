@@ -1,0 +1,49 @@
+.map-container {
+  @include span-columns(8,8);
+  //@include pull(1,8);
+  #map {
+    //border: 8px solid lighten($green, 35%);
+    height: 500px;
+    width: 100%;
+    @include box-sizing(border-box);
+    @include margin-leader(1);
+    @include margin-trailer(3);
+    background: $ocean;
+    @include border-radius(2px);
+  }
+}
+
+
+.schedule {
+  margin-bottom: 2em;
+  @include border-radius(2px);
+  table {
+  width: 100%;
+  font-family: $sans;
+  @include adjust-font-size-to(14px);
+  font-weight: 400;
+  color: lighten(#000, 30%);
+  }
+  p {
+    padding-bottom: 0;
+  }
+  th {
+    &:first-child {
+      padding-right: 2em;
+    }
+    h4 {
+      border-bottom: 1px dotted $green;
+      padding-bottom: 0.25em;
+      padding-bottom: 0.25em;
+      margin-bottom: 0.25em;
+    }
+  }
+  tr:nth-child(2) td {padding-bottom: 1em;}
+  td {
+    vertical-align: top;
+    width: 50%;
+  }
+  strong {
+    color: $green;
+  }
+}
