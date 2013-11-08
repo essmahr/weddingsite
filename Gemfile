@@ -4,6 +4,7 @@ gem 'rake'
 gem 'sinatra'
 gem 'shotgun'
 gem 'haml'
+gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 
 # Sass & Compass
 gem 'sass'

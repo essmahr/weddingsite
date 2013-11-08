@@ -17,3 +17,11 @@
 }
 
 .loaded #welcome {opacity: 1;}
+
+
+@media screen and (max-width: 480px) {
+  #welcome {
+    a {
+    }
+  }
+}

@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra/base'
+require 'sinatra/assetpack'
 require 'compass'
 require 'haml'
 require 'susy'
@@ -8,6 +9,21 @@ require 'json'
 
 class SinatraBootstrap < Sinatra::Base
   # require './helpers/render_partial'
+  # set :environment, :production
+  set :root, File.dirname(__FILE__)
+
+  register Sinatra::AssetPack
+  
+  assets do
+    js :app, '/app.js', [
+      '/js/jquery.fancybox.pack.js',
+      '/js/application.js',      
+    ]
+    
+    js_compression :jsmin
+    
+  end  
+  
 
   get '/' do
     @home = true

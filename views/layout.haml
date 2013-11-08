@@ -5,8 +5,7 @@
     %meta{:name => "lang", :content => "en"}
     %meta{:name => 'viewport', :content =>'width=device-width'}
     %title Scott & Alanna
-    %link{:href=>'/stylesheets/application.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
-    %link{:href=>'/stylesheets/application.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
+    %link{:href=>'/css/application.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
     %link{:href=>'http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
     /[if lte IE 8]
       %link{:href=>'http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}
@@ -39,5 +38,4 @@
           = yield
     %script{:type => "text/javascript", :src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"}
     %script{:type => "text/javascript", :src => "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js"}
-    %script{:type => "text/javascript", :src => "/javascripts/jquery.fancybox.pack.js"}
-    %script{:type => "text/javascript", :src => "/javascripts/application.js"}
+    != js :app
