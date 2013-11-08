@@ -22,6 +22,15 @@
 @media screen and (max-width: 480px) {
   #welcome {
     a {
+      background: url(/images/welcome-mobile.png) no-repeat 0 0;
+      width: 197px;
+      height: 191px;
+      background-size: 197px 191px;
+      position: static;
+      margin:  0 auto;
+      position: relative;
+      top: 170px;
+      left: -2px;
     }
   }
 }
