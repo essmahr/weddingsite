@@ -35,3 +35,9 @@
     position: static !important;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #nav {
+    line-height: 1.75em;
+  }
+}

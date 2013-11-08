@@ -1,5 +1,9 @@
 @include establish-baseline;
 
+html, body {
+  min-height: 100%;
+}
+
 body {
   background: url(/images/page-bg.jpg) no-repeat center bottom $beige;
   background-size: 100% auto;
@@ -64,4 +68,14 @@ img {
 #content {
   @include margin-leader(4);
   @include margin-trailer(8);
+}
+
+@media screen and (max-width: 480px) {
+  body.home {
+    background: url(/images/page-bg.jpg) no-repeat center bottom $beige;
+    background-size: 200% auto;
+  }
+  #content {
+    @include margin-leader(2);
+  }
 }
