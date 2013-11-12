@@ -10,6 +10,7 @@ GEM
     haml (4.0.3)
       tilt
     jsmin (1.0.1)
+    newrelic_rpm (3.6.9.171)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -39,6 +40,7 @@ PLATFORMS
 DEPENDENCIES
   compass
   haml
+  newrelic_rpm
   rake
   sass
   shotgun
