@@ -1,3 +1,7 @@
+function redirectPage() {
+    window.location = linkLocation;
+}
+
 /*
  Sticky-kit v1.0.1 | WTFPL | Leaf Corcoran 2013 | http://leafo.net
 */
@@ -16,8 +20,10 @@ $(document).ready(function() {
   
   //$('header').stick_in_parent();
   
-  $('#nav a').click(function(){
-    $('#content').css({opacity: 0});
+  $('#nav a').click(function(e){
+    e.preventDefault();
+    linkLocation = this.href;
+    $('#content, body.home').animate({opacity: 0},300, redirectPage);
   });
   
   $(window).resize(function(){

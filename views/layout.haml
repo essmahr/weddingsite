@@ -39,3 +39,8 @@
     %script{:type => "text/javascript", :src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"}
     %script{:type => "text/javascript", :src => "http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js"}
     != js :app
+    :javascript
+      var _gaq=[['_setAccount','UA-42091333-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));

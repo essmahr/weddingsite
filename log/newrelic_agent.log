@@ -55,3 +55,913 @@
 [11/11/13 20:45:14 -0800 scott-laptop.local (647)] INFO : Doing deferred dependency-detection before Rack startup
 [11/11/13 20:45:14 -0800 scott-laptop.local (646)] INFO : Doing deferred dependency-detection before Rack startup
 [11/11/13 20:45:14 -0800 scott-laptop.local (648)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Enabling the Request Sampler.
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Enabling the Request Sampler.
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Environment: development
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Dispatcher: webrick
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Application: floating-oasis-6876
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Installing Net instrumentation
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Finished instrumentation
+[11/11/13 20:48:49 -0800 scott-laptop.local (670)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Enabling the Request Sampler.
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Enabling the Request Sampler.
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Environment: development
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Dispatcher: webrick
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Application: floating-oasis-6876
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Installing Net instrumentation
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:48:53 -0800 scott-laptop.local (673)] INFO : Finished instrumentation
+[11/11/13 20:48:54 -0800 scott-laptop.local (673)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Environment: development
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Dispatcher: webrick
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Application: floating-oasis-6876
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Installing Net instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Finished instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (681)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Environment: development
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Dispatcher: webrick
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Application: floating-oasis-6876
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Environment: development
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Dispatcher: webrick
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Application: floating-oasis-6876
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Enabling the Request Sampler.
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Environment: development
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Dispatcher: webrick
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Application: floating-oasis-6876
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Installing Net instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (684)] INFO : Finished instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Installing Net instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (685)] INFO : Finished instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Installing Net instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:49:53 -0800 scott-laptop.local (686)] INFO : Finished instrumentation
+[11/11/13 20:49:54 -0800 scott-laptop.local (685)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:49:54 -0800 scott-laptop.local (684)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:49:54 -0800 scott-laptop.local (686)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Environment: development
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Dispatcher: webrick
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Installing Net instrumentation
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Finished instrumentation
+[11/11/13 20:51:01 -0800 scott-laptop.local (697)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Environment: development
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Dispatcher: webrick
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Environment: development
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Dispatcher: webrick
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Installing Net instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Environment: development
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Dispatcher: webrick
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Installing Net instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Finished instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Finished instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Installing Net instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Finished instrumentation
+[11/11/13 20:51:02 -0800 scott-laptop.local (701)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:02 -0800 scott-laptop.local (700)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:02 -0800 scott-laptop.local (702)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Environment: development
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Dispatcher: webrick
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Installing Net instrumentation
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:23 -0800 scott-laptop.local (710)] INFO : Finished instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (710)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Environment: development
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Dispatcher: webrick
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Environment: development
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Dispatcher: webrick
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Enabling the Request Sampler.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Environment: development
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Dispatcher: webrick
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Application: floating-oasis-6876
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Installing Net instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Installing Net instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Installing Net instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Finished instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Finished instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Finished instrumentation
+[11/11/13 20:51:24 -0800 scott-laptop.local (714)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:24 -0800 scott-laptop.local (715)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:51:24 -0800 scott-laptop.local (713)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Environment: development
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Dispatcher: webrick
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Application: floating-oasis-6876
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Installing Net instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Finished instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (738)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Environment: development
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Dispatcher: webrick
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Application: floating-oasis-6876
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Environment: development
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Dispatcher: webrick
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Application: floating-oasis-6876
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Enabling the Request Sampler.
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Environment: development
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Dispatcher: webrick
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Application: floating-oasis-6876
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Installing Net instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (743)] INFO : Finished instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Installing Net instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (741)] INFO : Finished instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Installing Net instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:55:02 -0800 scott-laptop.local (742)] INFO : Finished instrumentation
+[11/11/13 20:55:03 -0800 scott-laptop.local (743)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:55:03 -0800 scott-laptop.local (741)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:55:03 -0800 scott-laptop.local (742)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Environment: development
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Dispatcher: webrick
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Installing Net instrumentation
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Finished instrumentation
+[11/11/13 20:56:07 -0800 scott-laptop.local (752)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Environment: development
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Dispatcher: webrick
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Installing Net instrumentation
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Finished instrumentation
+[11/11/13 20:56:10 -0800 scott-laptop.local (755)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Environment: development
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Dispatcher: webrick
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Installing Net instrumentation
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Finished instrumentation
+[11/11/13 20:56:13 -0800 scott-laptop.local (758)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Environment: development
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Dispatcher: webrick
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Installing Net instrumentation
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:16 -0800 scott-laptop.local (761)] INFO : Finished instrumentation
+[11/11/13 20:56:17 -0800 scott-laptop.local (761)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Environment: development
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Dispatcher: webrick
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Installing Net instrumentation
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:21 -0800 scott-laptop.local (764)] INFO : Finished instrumentation
+[11/11/13 20:56:22 -0800 scott-laptop.local (764)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Environment: development
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Dispatcher: webrick
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Installing Net instrumentation
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Finished instrumentation
+[11/11/13 20:56:25 -0800 scott-laptop.local (767)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Enabling the Request Sampler.
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Environment: development
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Dispatcher: webrick
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Application: floating-oasis-6876
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Installing Net instrumentation
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Finished instrumentation
+[11/11/13 20:56:28 -0800 scott-laptop.local (770)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Environment: development
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Dispatcher: webrick
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Installing Net instrumentation
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Finished instrumentation
+[11/11/13 20:57:01 -0800 scott-laptop.local (774)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Environment: development
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Dispatcher: webrick
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Installing Net instrumentation
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Finished instrumentation
+[11/11/13 20:57:04 -0800 scott-laptop.local (777)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Environment: development
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Dispatcher: webrick
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Installing Net instrumentation
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Finished instrumentation
+[11/11/13 20:57:07 -0800 scott-laptop.local (780)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Environment: development
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Dispatcher: webrick
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Installing Net instrumentation
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Finished instrumentation
+[11/11/13 20:57:25 -0800 scott-laptop.local (785)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Environment: development
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Dispatcher: webrick
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Environment: development
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Dispatcher: webrick
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Environment: development
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Dispatcher: webrick
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Installing Net instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Finished instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Installing Net instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Installing Net instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Finished instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Finished instrumentation
+[11/11/13 20:57:26 -0800 scott-laptop.local (788)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:26 -0800 scott-laptop.local (789)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:26 -0800 scott-laptop.local (790)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Environment: development
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Dispatcher: webrick
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:31 -0800 scott-laptop.local (797)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:32 -0800 scott-laptop.local (797)] INFO : Installing Net instrumentation
+[11/11/13 20:57:32 -0800 scott-laptop.local (797)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:32 -0800 scott-laptop.local (797)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:32 -0800 scott-laptop.local (797)] INFO : Finished instrumentation
+[11/11/13 20:57:32 -0800 scott-laptop.local (797)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Environment: development
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Dispatcher: webrick
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Installing Net instrumentation
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:34 -0800 scott-laptop.local (800)] INFO : Finished instrumentation
+[11/11/13 20:57:35 -0800 scott-laptop.local (800)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Environment: development
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Dispatcher: webrick
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Installing Net instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Finished instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (804)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Environment: development
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Dispatcher: webrick
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Environment: development
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Dispatcher: webrick
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Installing Net instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Installing Net instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (808)] INFO : Finished instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (807)] INFO : Finished instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Environment: development
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Dispatcher: webrick
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Installing Net instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:47 -0800 scott-laptop.local (809)] INFO : Finished instrumentation
+[11/11/13 20:57:48 -0800 scott-laptop.local (807)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:48 -0800 scott-laptop.local (808)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:48 -0800 scott-laptop.local (809)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Environment: development
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Dispatcher: webrick
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Installing Net instrumentation
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Finished instrumentation
+[11/11/13 20:57:52 -0800 scott-laptop.local (816)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Enabling the Request Sampler.
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Environment: development
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Dispatcher: webrick
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Application: floating-oasis-6876
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Installing Net instrumentation
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Finished instrumentation
+[11/11/13 20:57:55 -0800 scott-laptop.local (819)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Enabling the Request Sampler.
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Enabling the Request Sampler.
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Environment: development
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Dispatcher: webrick
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Application: floating-oasis-6876
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Installing Net instrumentation
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Finished instrumentation
+[11/11/13 20:58:00 -0800 scott-laptop.local (822)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Enabling the Request Sampler.
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Enabling the Request Sampler.
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Environment: development
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Dispatcher: webrick
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Application: floating-oasis-6876
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Installing Net instrumentation
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Finished instrumentation
+[11/11/13 20:58:02 -0800 scott-laptop.local (825)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Enabling the Request Sampler.
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Enabling the Request Sampler.
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Environment: development
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Dispatcher: webrick
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Application: floating-oasis-6876
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Installing Net instrumentation
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:58:35 -0800 scott-laptop.local (828)] INFO : Finished instrumentation
+[11/11/13 20:58:36 -0800 scott-laptop.local (828)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Environment: development
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Dispatcher: webrick
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Application: floating-oasis-6876
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Installing Net instrumentation
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Finished instrumentation
+[11/11/13 20:59:12 -0800 scott-laptop.local (832)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Environment: development
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Dispatcher: webrick
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Application: floating-oasis-6876
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Environment: development
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Dispatcher: webrick
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Application: floating-oasis-6876
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Installing Net instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Finished instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Environment: development
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Dispatcher: webrick
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Application: floating-oasis-6876
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Installing Net instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Finished instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Installing Net instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Finished instrumentation
+[11/11/13 20:59:13 -0800 scott-laptop.local (835)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:59:13 -0800 scott-laptop.local (837)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:59:13 -0800 scott-laptop.local (836)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Enabling the Request Sampler.
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Environment: development
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Dispatcher: webrick
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Application: floating-oasis-6876
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] WARN : Agent configured not to send data in this environment.
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Installing Net instrumentation
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Installing Sinatra instrumentation
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Installing deferred Rack instrumentation
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Finished instrumentation
+[11/11/13 20:59:55 -0800 scott-laptop.local (844)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Enabling the Request Sampler.
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Enabling the Request Sampler.
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Environment: development
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Dispatcher: webrick
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Application: floating-oasis-6876
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Installing Net instrumentation
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Finished instrumentation
+[11/11/13 21:04:15 -0800 scott-laptop.local (862)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Environment: development
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Dispatcher: webrick
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Installing Net instrumentation
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Finished instrumentation
+[11/11/13 21:08:28 -0800 scott-laptop.local (903)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Environment: development
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Dispatcher: webrick
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Environment: development
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Dispatcher: webrick
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Environment: development
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Dispatcher: webrick
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Installing Net instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Installing Net instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Finished instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Finished instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Installing Net instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Finished instrumentation
+[11/11/13 21:08:29 -0800 scott-laptop.local (906)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:29 -0800 scott-laptop.local (907)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:29 -0800 scott-laptop.local (908)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Environment: development
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Dispatcher: webrick
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Installing Net instrumentation
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Finished instrumentation
+[11/11/13 21:08:46 -0800 scott-laptop.local (916)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Environment: development
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Dispatcher: webrick
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Installing Net instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Environment: development
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Dispatcher: webrick
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Finished instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Environment: development
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Dispatcher: webrick
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Installing Net instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Finished instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Installing Net instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Finished instrumentation
+[11/11/13 21:08:47 -0800 scott-laptop.local (919)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:47 -0800 scott-laptop.local (921)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:47 -0800 scott-laptop.local (920)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Environment: development
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Dispatcher: webrick
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Installing Net instrumentation
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Finished instrumentation
+[11/11/13 21:08:54 -0800 scott-laptop.local (928)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Environment: development
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Dispatcher: webrick
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Environment: development
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Dispatcher: webrick
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Enabling the Request Sampler.
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Environment: development
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Dispatcher: webrick
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Application: floating-oasis-6876
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Installing Net instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Finished instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Installing Net instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Installing Net instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Finished instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Finished instrumentation
+[11/11/13 21:08:55 -0800 scott-laptop.local (933)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:55 -0800 scott-laptop.local (931)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:08:55 -0800 scott-laptop.local (932)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Environment: development
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Dispatcher: webrick
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Application: floating-oasis-6876
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Installing Net instrumentation
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Finished instrumentation
+[11/11/13 21:09:01 -0800 scott-laptop.local (941)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Environment: development
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Dispatcher: webrick
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Application: floating-oasis-6876
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Installing Net instrumentation
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Finished instrumentation
+[11/11/13 21:09:04 -0800 scott-laptop.local (944)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Environment: development
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Dispatcher: webrick
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Application: floating-oasis-6876
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Installing Net instrumentation
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Finished instrumentation
+[11/11/13 21:09:07 -0800 scott-laptop.local (947)] INFO : Doing deferred dependency-detection before Rack startup
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Starting the New Relic agent in "development" environment.
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Reading configuration from config/newrelic.yml
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Enabling the Request Sampler.
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Environment: development
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Dispatcher: webrick
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Application: floating-oasis-6876
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] WARN : Agent configured not to send data in this environment.
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Installing Net instrumentation
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Installing Sinatra instrumentation
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Installing deferred Rack instrumentation
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Finished instrumentation
+[11/11/13 21:09:12 -0800 scott-laptop.local (950)] INFO : Doing deferred dependency-detection before Rack startup
