@@ -44,6 +44,14 @@ $(document).ready(function() {
   var markerLayer = L.mapbox.markerLayer().addTo(map);
   markerLayer.loadURL('/map-points.geojson');
 
+  markerLayer.on('ready', function(e){
+    markerLayer.eachLayer(function(marker) {
+      if (marker.feature.properties.title === "Eagle's Nest Retreat") {
+        marker.openPopup();
+      }
+    });
+  });
+
   $('a.remove').click(function(e){
     e.preventDefault();
     var removeID = $(this).attr('data-remove');
