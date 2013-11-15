@@ -1,3 +1,8 @@
+- title = 'Scott & Alanna'
+- unless @home
+  - title = @slug + ' | ' + title
+
+
 !!! 5
 %html{html_attrs}
   %head
@@ -7,7 +12,10 @@
     %meta{:name => "description", :content => "Scott and Alanna are getting married and here are the details."}
     %meta{:name => "author", :content => "Scott Milligan"}
     %meta{:property => 'og:image', :content => 'http://scottandalanna.com/images/sanda.jpg'}
-    %title Scott & Alanna
+    %meta{:property => 'og:title', :content => title}
+    %meta{:property => 'og:description', :content => 'Scott and Alanna are getting married and here are the details.'}
+    %title
+      =title
     %link{ rel: "shortcut icon", href: "favicon.gif" }
     %link{ rel: "icon", type: "image/ico", href: "favicon.ico" }
     %link{:href=>'/css/application.css', :media => "screen", :rel => 'stylesheet', :type => "text/css"}

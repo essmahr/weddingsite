@@ -32,16 +32,19 @@ class SinatraBootstrap < Sinatra::Base
   end
   
   get '/registry' do
+    @slug = 'Registry'
     require_relative 'doc/registry_items'
     haml :registry
   end
 
   get '/accommodation' do
+    @slug = 'Accommodation'
     require_relative 'doc/accommodation_items'
     haml :accommodation
   end
 
   get '/location' do
+    @slug = 'Location & Logistics'
     require_relative 'doc/accommodation_items'
     haml :location
   end
@@ -92,6 +95,7 @@ class SinatraBootstrap < Sinatra::Base
 =end
 
   get '/about' do
+    @slug = 'About'
     haml :about
   end
 
