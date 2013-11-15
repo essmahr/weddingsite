@@ -60,7 +60,6 @@ a {
 img {
   max-width: 100%;
   &.img {
-    margin-bottom: 1em;
     @include bleed(1, 8);
   }
 }
