@@ -30,7 +30,7 @@ $layouts: $mega, $mobile, $standard, $tablet;
   }
   
   #content {
-    @include span-columns(8 omega,16);
+    @include span-columns(8,16);
   }
   
   .registry #content {
