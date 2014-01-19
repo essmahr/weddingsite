@@ -35,6 +35,10 @@ $layouts: $mega, $mobile, $standard, $tablet;
   .sched-col {
     @include span-columns(4,8);
   }
+  .registry-item {
+    @include span-columns(6,12);
+    @include nth-omega(2n);
+  }
 }
 
 @include at-breakpoint($standard) {
@@ -48,6 +52,10 @@ $layouts: $mega, $mobile, $standard, $tablet;
   #content {
     @include span-columns(8 omega, 11);
   }
+  .registry-item {
+    @include span-columns(6,12);
+    @include nth-omega(2n);
+  }
 }
 
 @include at-breakpoint($tablet) {
@@ -58,11 +66,20 @@ $layouts: $mega, $mobile, $standard, $tablet;
   #content {
     @include span-columns(8,8);
   }
+  
+  .registry-item {
+    @include span-columns(6,12);
+    @include nth-omega(2n);
+  }
+    
 }
 
 @include at-breakpoint($mobile) {
   .header, #content {
     @include span-columns(4,4);
+  }
+  .registry-item {
+    @include span-columns(12,12);
   }
 }
 
