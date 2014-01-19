@@ -19,6 +19,7 @@ class SinatraBootstrap < Sinatra::Base
   assets do
     js :app, '/app.js', [
       '/js/jquery.fancybox.pack.js',
+      '/js/lazyload.js',
       '/js/application.js',      
     ]
     
@@ -32,7 +33,7 @@ class SinatraBootstrap < Sinatra::Base
   end
   
   get '/registry' do
-    @slug = 'registry'
+    @slug = 'Registry'
     $available_items = []
     require_relative 'doc/registry_items'
 

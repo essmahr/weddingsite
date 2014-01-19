@@ -20,6 +20,10 @@ $(document).ready(function() {
   
   //$('header').stick_in_parent();
   
+  $('.registry-items .registry-item img').lazyload({
+    effect: 'fadeIn'
+  });
+  
   $('#nav a').click(function(e){
     e.preventDefault();
     linkLocation = this.href;
@@ -60,18 +64,21 @@ $(document).ready(function() {
     var yup = confirm('Are you sure you want to claim this item?');
     var removeID = $(this).attr('data-remove');
     if (yup) {
-      $.ajax({
-        type: 'GET',
-        url: '/registry/claim/'+removeID,
-        accepts: 'application/json',
-        dataType: 'json',
-        success: function(data){
-          if(!data.success) {
-            alert('that item has already been claimed. Whoops!')
-          } else {
-            $item.addClass('active').find('.info').addClass('claimed').html('<h2>Claimed</h2><p>thanks!</p>');
+      $item.parent().find('img').fadeTo(300,0, function(){
+        $.ajax({
+          type: 'GET',
+          url: '/registry/claim/'+removeID,
+          accepts: 'application/json',
+          dataType: 'json',
+          success: function(data){
+            if(!data.success) {
+              alert('that item has already been claimed. Whoops!')
+            } else {
+              $item.addClass('active').find('.info').addClass('claimed').html('<h2>Claimed</h2><p>thanks!</p>');
+            }
+            $item.parent().find('img').fadeTo(300,1);
           }
-        }
+        });
       });
     }
   })
