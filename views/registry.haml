@@ -3,17 +3,18 @@
 %ul.registry-items
   - $registries.each do |item|
     %li.registry-item
-      %img{:src=>'http://lorempixel.com/400/400'}
-      .inner
-        - if $available_items.include?(item[:id].to_s)  
-          %h2= item[:title]
-          .info
-            - if item[:url]
-              %a{:href=> item[:url], :target => '_blank', :class=>'btn'}
-                Link
-            %a{:href => '#', :class => 'claim btn', :data => {:remove => item[:id]}}
-              Claim item
-        - else
-          .claimed
-            %h2 Claimed
-            %p thanks!
+      %img{:src=>"/images/registry/#{item[:img]}.jpg"}
+      .inner{:class => ('active' unless $available_items.include?(item[:id].to_s))}
+        .again
+          - if $available_items.include?(item[:id].to_s)  
+            .info
+              %h2= item[:title]
+              %a{:href => '#', :class => 'claim btn', :data => {:remove => item[:id]}}
+                Claim item
+              - if item[:url]
+                %a{:href=> item[:url], :target => '_blank', :class=>'btn'}
+                  Link &rarr;
+          - else
+            .info.claimed
+              %h2 Claimed
+              %p thanks!
