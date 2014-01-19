@@ -6,7 +6,7 @@ $gutter-width   : 1.5em;
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 
 
-$mega: 1200px 12;
+$mega: 1200px 16;
 $standard: 1199px 11 768px;
 $tablet: 767px 9 320px;
 $mobile: 319px 4 0px;
@@ -26,18 +26,23 @@ $layouts: $mega, $mobile, $standard, $tablet;
     margin-left: 0;
   }
   .header {
-    @include span-columns(4,12);
+    @include span-columns(4,16);
   }
   
   #content {
-    @include span-columns(8 omega,12);
+    @include span-columns(8 omega,16);
   }
+  
+  .registry #content {
+    @include span-columns(12 omega,16);
+  }
+  
   .sched-col {
     @include span-columns(4,8);
   }
   .registry-item {
-    @include span-columns(6,12);
-    @include nth-omega(2n);
+    @include span-columns(4,12);
+    @include nth-omega(3n);
   }
 }
 
@@ -52,8 +57,9 @@ $layouts: $mega, $mobile, $standard, $tablet;
   #content {
     @include span-columns(8 omega, 11);
   }
+
   .registry-item {
-    @include span-columns(6,12);
+    @include span-columns(4,8);
     @include nth-omega(2n);
   }
 }
@@ -68,8 +74,7 @@ $layouts: $mega, $mobile, $standard, $tablet;
   }
   
   .registry-item {
-    @include span-columns(6,12);
-    @include nth-omega(2n);
+    @include span-columns(12,12);
   }
     
 }

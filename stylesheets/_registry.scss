@@ -7,6 +7,8 @@
     padding: 6px;
     border: 1px solid rgba(0,0,0,0.1);
     @include box-sizing(border-box);
+    @include border-radius(2px);
+    background: url('/images/loader.gif') no-repeat center center #fff;
     img {
       vertical-align: middle;
     }
@@ -60,6 +62,7 @@
     }
   }
   .claimed {
+    @include user-select(none);
     h2 {
       color: $red;
     }

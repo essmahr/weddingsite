@@ -28,7 +28,7 @@
       
     
       
-  %body{:class => @home ? 'home' : 'page'}
+  %body{:class => @slug ? @slug.downcase : 'home' }
     #page
       %header.header
         %nav#nav
