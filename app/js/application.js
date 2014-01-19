@@ -35,24 +35,26 @@ $(document).ready(function() {
     maxWidth: 800
   });
 
-  var map = L.mapbox.map('map', 'cabinroom.map-fvzt0qox', {
-    zoomControl: true,
-    scrollWheelZoom: false
-  });
-  map.setView([48.883624, -123.364000],13);
-
-  var markerLayer = L.mapbox.markerLayer().addTo(map);
-  markerLayer.loadURL('/map-points.geojson');
-
-  markerLayer.on('ready', function(e){
-    markerLayer.eachLayer(function(marker) {
-      if (marker.feature.properties.title === "Eagle's Nest Retreat") {
-        marker.openPopup();
-      }
+  if ($('#map').length) {
+    var map = L.mapbox.map('map', 'cabinroom.map-fvzt0qox', {
+      zoomControl: true,
+      scrollWheelZoom: false
     });
-  });
-
-  $('a.remove').click(function(e){
+    map.setView([48.883624, -123.364000],13);
+  
+    var markerLayer = L.mapbox.markerLayer().addTo(map);
+    markerLayer.loadURL('/map-points.geojson');
+  
+    markerLayer.on('ready', function(e){
+      markerLayer.eachLayer(function(marker) {
+        if (marker.feature.properties.title === "Eagle's Nest Retreat") {
+          marker.openPopup();
+        }
+      });
+    });
+  }
+  
+  $('a.claim').click(function(e){
     e.preventDefault();
     var removeID = $(this).attr('data-remove');
     $.ajax({
