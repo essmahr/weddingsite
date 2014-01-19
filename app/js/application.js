@@ -56,19 +56,24 @@ $(document).ready(function() {
   
   $('a.claim').click(function(e){
     e.preventDefault();
+    var $item = $(this).parent().parent().parent();
+    var yup = confirm('Are you sure you want to claim this item?');
     var removeID = $(this).attr('data-remove');
-    $.ajax({
-      type: 'GET',
-      url: '/registry/claim/'+removeID,
-      accepts: 'application/json',
-      dataType: 'json',
-      success: function(data){
-        console.log(data);
-        if(!data.success) {
-          alert('that item has already been claimed. Whoops!')
+    if (yup) {
+      $.ajax({
+        type: 'GET',
+        url: '/registry/claim/'+removeID,
+        accepts: 'application/json',
+        dataType: 'json',
+        success: function(data){
+          if(!data.success) {
+            alert('that item has already been claimed. Whoops!')
+          } else {
+            $item.addClass('active').find('.info').addClass('claimed').html('<h2>Claimed</h2><p>thanks!</p>');
+          }
         }
-      }
-    });
+      });
+    }
   })
 
 });
