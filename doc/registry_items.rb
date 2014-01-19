@@ -32,7 +32,7 @@ $registries = [
   },
   {
     :id => 6,
-    :title => "Pillows",
+    :title => "Bed Pillows",
     :img => 'pillows',
     :note => "Available at <a href='http://thebay.com' target='_blank'>The Bay</a> or your favourite home and bedding store."   
   },
@@ -146,7 +146,6 @@ $registries = [
   {
     :id => 20,
     :img => 'whetstone',
-    :title => "Knife Sharpening Stone",
-    :img => 'blanket'
+    :title => "Knife Sharpening Stone"
   }
 ]
