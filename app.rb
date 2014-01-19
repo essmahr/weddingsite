@@ -7,6 +7,7 @@ require 'haml'
 require 'susy'
 require 'csv'
 require 'json'
+require 'net/smtp'
 
 class SinatraBootstrap < Sinatra::Base
   # require './helpers/render_partial'
@@ -24,7 +25,6 @@ class SinatraBootstrap < Sinatra::Base
     js_compression :jsmin
     
   end  
-  
 
   get '/' do
     @home = true
@@ -32,7 +32,7 @@ class SinatraBootstrap < Sinatra::Base
   end
   
   get '/registry' do
-    @slug = 'Registry'
+    @slug = 'registry'
     $available_items = []
     require_relative 'doc/registry_items'
 
@@ -70,7 +70,7 @@ class SinatraBootstrap < Sinatra::Base
       new_items[i] = row
       if row[0] == params[:id]
         if row[2] == 'unclaimed'
-          new_items[i][2] = 'claimed' 
+          new_items[i][2] = 'claimed'
         else
           @success = false
         end
