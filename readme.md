@@ -1,3 +1,3 @@
 ##### getting married
 
-[http://scottandalanna.com]
+http://scottandalanna.com
