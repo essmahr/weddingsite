@@ -33,8 +33,19 @@ class SinatraBootstrap < Sinatra::Base
   
   get '/registry' do
     @slug = 'Registry'
+    $available_items = []
     require_relative 'doc/registry_items'
+
+    file = "doc/registry.csv"
+
+    CSV.foreach(file) do |row|
+      if row[2] == 'unclaimed'
+         $available_items.push(row[0]);
+      end
+    end
+    
     haml :registry
+    
   end
 
   get '/accommodation' do
