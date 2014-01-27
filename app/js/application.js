@@ -21,7 +21,8 @@ $(document).ready(function() {
   //$('header').stick_in_parent();
   
   $('.registry-items .registry-item img').lazyload({
-    effect: 'fadeIn'
+    effect: 'fadeIn',
+    skip_invisible: false
   });
   
   $('#nav a').click(function(e){
