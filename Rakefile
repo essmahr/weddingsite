@@ -1,6 +1,4 @@
-require 'rubygems'
-require 'bundler'
-require 'rake'
-Bundler.setup
+# Rakefile
 
-Dir["tasks/*.rake"].sort.each { |ext| load ext }
+require './app'
+require 'sinatra/activerecord/rake'

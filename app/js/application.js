@@ -61,8 +61,6 @@ $(document).ready(function() {
   
   $('a.claim').click(function(e){
     e.preventDefault();
-    alert('Sorry but claiming items isn\'t working at the moment, Scott\'s knowledge of PostgreSQL databases is not as extensive as he thought. Please check back in a day or two.')
-    /*
     var $item = $(this).parent().parent().parent();
     var yup = confirm('Are you sure you want to claim this item?');
     var removeID = $(this).attr('data-remove');
@@ -84,7 +82,6 @@ $(document).ready(function() {
         });
       });
     }
-    */
   })
 
 });

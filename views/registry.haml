@@ -4,9 +4,9 @@
   - $registries.shuffle.each do |item|
     %li.registry-item
       %img{:src=>'/images/transparent.gif', :data => {:original=>"/images/registry/#{item[:img]}.jpg"}}
-      .inner{:class => ('active' unless $available_items.include?(item[:id].to_s))}
+      .inner{:class => ('active' if $claimed_items.include?(item[:id].to_s))}
         .again
-          - if $available_items.include?(item[:id].to_s)  
+          - unless $claimed_items.include?(item[:id].to_s)  
             .info
               %h2= item[:title]
               %a{:href => '#', :class => 'claim btn', :data => {:remove => item[:id]}}

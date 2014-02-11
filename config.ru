@@ -4,4 +4,4 @@ require './app'
 
 Sass::Script::Number.precision = 8
 
-run SinatraBootstrap
+run Sinatra::Application
